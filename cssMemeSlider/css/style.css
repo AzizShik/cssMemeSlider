@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../assets/fonts/Montserrat-Regular.woff2') format('woff2'),
+		url('../assets/fonts/Montserrat-Regular.woff') format('woff');
+	font-weight: 400;
+	font-display: swap;
+}
 
 :root {
 	--font-color: #fff;
@@ -17,4 +23,25 @@ body {
 	line-height: 1.5;
 	color: #fff;
 	background: #333;
+}
+
+.wrapper {
+}
+.slider-img {
+}
+.slides {
+}
+.slide1 {
+}
+.slide2 {
+}
+.slide3 {
+}
+.slide4 {
+}
+.slide5 {
+}
+.slider-info {
+}
+.controls {
 }
