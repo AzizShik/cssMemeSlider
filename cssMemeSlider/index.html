@@ -12,54 +12,74 @@
 
 <body>
 
-  <div class="wrapper">
-    <input type="radio" name="point" id="slide1" checked>
-    <input type="radio" name="point" id="slide2">
-    <input type="radio" name="point" id="slide3">
-    <input type="radio" name="point" id="slide4">
-    <input type="radio" name="point" id="slide5">
-    <input type="radio" name="point" id="slide6">
-    <input type="radio" name="point" id="slide7">
-    <div class="slider-img">
-      <div class="slides slide1">
-        <img src="" alt="Meme">
-      </div>
-      <div class="slides slide2">
-        <img src="" alt="Meme">
-      </div>
-      <div class="slides slide3">
-        <img src="" alt="Meme">
-      </div>
-      <div class="slides slide4">
-        <img src="" alt="Meme">
-      </div>
-      <div class="slides slide5">
-        <img src="" alt="Meme">
-      </div>
-      <div class="slides slide6">
-        <img src="" alt="Meme">
+  <div class="slider">
+    <input class="slider__input" type="radio" name="point" id="slide1" checked>
+    <input class="slider__input" type="radio" name="point" id="slide2">
+    <input class="slider__input" type="radio" name="point" id="slide3">
+    <input class="slider__input" type="radio" name="point" id="slide4">
+    <input class="slider__input" type="radio" name="point" id="slide5">
+    <input class="slider__input" type="radio" name="point" id="slide6">
+    <input class="slider__input" type="radio" name="point" id="slide7">
+    <div class="slider__top">
+      <div class="slider__images">
+        <div class="slider__images-slide slides slide1">
+          <img class="slider__image" src="assets/images/monkey.jpg" alt="Meme">
+        </div>
+        <div class="slider__images-slide slides slide2">
+          <img class="slider__image" src="assets/images/excited-kid.gif" alt="Meme">
+        </div>
+        <div class="slider__images-slide slides slide3">
+          <img class="slider__image" src="assets/images/thanks-bow.gif" alt="Meme">
+        </div>
+        <div class="slider__images-slide slides slide4">
+          <img class="slider__image" src="assets/images/guy-explaining-meme.gif" alt="Meme">
+        </div>
+        <div class="slider__images-slide slides slide5">
+          <img class="slider__image" src="assets/images/tom-cruise-running.gif" alt="Meme">
+        </div>
+        <div class="slider__images-slide slides slide6">
+          <img class="slider__image" src="assets/images/james-mcavoy-filth.gif" alt="Meme">
+        </div>
+        <div class="slider__images-slide slides slide7">
+          <img class="slider__image" src="assets/images/keanu-reeves-blow-kiss.gif" alt="Meme">
+        </div>
       </div>
     </div>
-    <div class="slider-info">
-      <div class="slides slide1">When you scored 99 points on a test</div>
-      <div class="slides slide2">When you scored 100 points on a test</div>
-      <div class="slides slide3">When someone helped you with a test</div>
-      <div class="slides slide4">Someone on the discord chat explaining how to create a pagination in the shelter
-        project</div>
-      <div class="slides slide5">When you deploy your project right before the deadline </div>
-      <div class="slides slide6">When it took more time to find memes than to create a slider</div>
-      <div class="slides slide7">Have a great day</div>
+
+    <div class="slider__bottom">
+      <div class="slider__bottom-container">
+        <div class="slider__info">
+          <div class="slider__info-text  slides slide1">When you scored 99 points on a test</div>
+          <div class="slider__info-text  slides slide2">When you scored 100 points on a test</div>
+          <div class="slider__info-text  slides slide3">When someone helped in the RSS discord chat</div>
+          <div class="slider__info-text  slides slide4">Someone on the discord chat explaining how to create a
+            pagination
+            in the shelter project</div>
+          <div class="slider__info-text slides slide5">When you deploy your project right before the deadline </div>
+          <div class="slider__info-text slides slide6">When it took more time to create memes than to create a slider
+          </div>
+          <div class="slider__info-text slides slide7">Have a great day</div>
+        </div>
+      </div>
+
+      <div class="slider__controls">
+        <label class="slider__controls-label" for="slide1"><span class="slider__controls-dot"></span></label>
+        <label class="slider__controls-label" for="slide2"><span class="slider__controls-dot"></span></label>
+        <label class="slider__controls-label" for="slide3"><span class="slider__controls-dot"></span></label>
+        <label class="slider__controls-label" for="slide4"><span class="slider__controls-dot"></span></label>
+        <label class="slider__controls-label" for="slide5"><span class="slider__controls-dot"></span></label>
+        <label class="slider__controls-label" for="slide6"><span class="slider__controls-dot"></span></label>
+        <label class="slider__controls-label" for="slide7"><span class="slider__controls-dot"></span></label>
+      </div>
+
     </div>
-    <div class="controls">
-      <label for="slide1"></label>
-      <label for="slide2"></label>
-      <label for="slide3"></label>
-      <label for="slide4"></label>
-      <label for="slide5"></label>
-      <label for="slide6"></label>
-      <label for="slide7"></label>
-    </div>
+
+
   </div>
+
+  </div>
+
+
 
 
 </body>
